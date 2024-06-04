@@ -34,7 +34,7 @@ struct LoginView: View {
             .clipShape(RoundedRectangle(cornerRadius: 10))
             
             Button(action: {
-                
+                isLoggedIn = true
             }, label: {
                 Text("Login")
             })
