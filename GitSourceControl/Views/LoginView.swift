@@ -26,7 +26,7 @@ struct LoginView: View {
             .background(Color.gray.opacity(0.3))
             .clipShape(RoundedRectangle(cornerRadius: 10))
             
-            TextField(text: $password) {
+            SecureField(text: $password) {
                 Text("Enter password")
             }
             .padding()
